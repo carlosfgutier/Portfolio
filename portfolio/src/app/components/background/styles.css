@@ -1,12 +1,11 @@
 .grid-container {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
 #grid {
-    background-color: rgba(255, 255, 255, 0.564);
     width: 100vmax;
     height: 100vmax;
     position: absolute;
@@ -15,5 +14,12 @@
 }
 
 .cell {
-    border: 1px solid rgb(236, 235, 235);
+    background-color: rgba(255, 255, 255, 0.823);
+    /* border: 1px solid rgb(236, 235, 235); */
+    transition: background-color 2s ease-out;
+}
+
+.cell:hover {
+    background-color: transparent;
+    transition: background-color .05s ease-out; 
 }
