@@ -2,7 +2,10 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    z-index: 10;
 }
 
 #grid {
