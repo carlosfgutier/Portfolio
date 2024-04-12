@@ -1,4 +1,3 @@
-
 import './styles.css';
 import Image from "next/image";
 
@@ -21,7 +20,7 @@ export default function BgGrid() {
         <div className="grid-container">
             <Image
                 src="/pink-blue-gradient.jpg"
-                alt="Next.js Logo"
+                alt="bacground image: pink, blue, and white gradient"
                 layout="fill"
                 objectFit="cover"
                 objectPosition="center"
