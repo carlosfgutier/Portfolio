@@ -1,0 +1,15 @@
+@import url('/fonts/fonts.css');
+
+.menu {
+    line-height: 5vmax;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+    font-family: 'Bangers';
+    font-size: 5vmax;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 gray,  
+         1px -1px 0 gray,
+        -1px  1px 0 gray,
+         1px  1px 0 gray; 
+}
